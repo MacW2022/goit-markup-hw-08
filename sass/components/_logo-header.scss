@@ -1,0 +1,15 @@
+.navigation__logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-hover);
+    text-decoration: none;
+    display: flex;
+    margin-right: 93px;
+}
+.navigation__color {
+    color: var(--brand-color-logo);
+}

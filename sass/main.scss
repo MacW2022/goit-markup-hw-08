@@ -1,0 +1,37 @@
+@import "./utils/variables.scss";
+@import "./utils/reset.scss";
+@import "./utils/hidden.scss";
+@import "./utils/backdrop.scss";
+
+
+@import "./components/header";
+@import "./components/logo-header";
+@import "./components/menu-nav-index";
+@import "./components/header-contact";
+@import "./components/container";
+@import "./components/section1";
+@import "./components/section1-btn";
+@import "./components/section2";
+@import "./components/modal";
+@import "./components/lorem-list";
+@import "./components/section3";
+@import "./components/section4";
+@import "./components/cards-whatwedo";
+@import "./components/team-members";
+@import "./components/team-members__item";
+@import "./components/social-list";
+@import "./components/section5";
+@import "./components/ours-clients-list";
+@import "./components/footer";
+@import "./components/footer-logo";
+@import "./components/footer-adress";
+@import "./components/footer-header";
+@import "./components/footer-social";
+@import "./components/footer-form";
+
+@import "./components/menu-nav-portfolio";
+@import "./components/section";
+@import "./components/list-button";
+@import "./components/portfolio-list";
+@import "./components/portfolio-list__project";
+@import "./components/hidden-text";

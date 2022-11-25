@@ -1,0 +1,19 @@
+.portfolio-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+.portfolio-list > .portfolio-list__item {
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.portfolio-list > .portfolio-list__item:hover {
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.06),
+                0 4px 4px 0 rgba(0, 0, 0, 0.06),
+                0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}

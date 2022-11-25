@@ -1,0 +1,13 @@
+.header {
+    background-color: var(--brand-color);
+    border-bottom: 1px solid var(--barnd-color-border1);
+ 
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    position: relative;
+}

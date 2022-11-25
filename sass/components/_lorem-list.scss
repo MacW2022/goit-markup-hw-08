@@ -1,0 +1,42 @@
+.lorem-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.lorem-list__box {
+    width: 270px;
+    height: 120px;
+    background-color: var(--brand-color-section4);
+    margin-bottom: 30px;
+}
+.lorem-list__icon {
+   margin-inline: 102px;
+   margin-block: 25px;
+   
+}
+
+.lorem-list__header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brand-color-text);
+    max-width: 270px;
+    padding-bottom: 10px;
+}
+.lorem-list__paragraph {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--barnd-color-data);
+    max-width: 270px;
+    
+}

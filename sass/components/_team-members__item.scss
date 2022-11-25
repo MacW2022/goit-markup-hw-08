@@ -1,0 +1,26 @@
+.team-members__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-text);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: var(--brand-color);
+    margin-top: -3px;
+}
+.team-members__job {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--barnd-color-data);
+    text-align: center;
+    background-color: var(--brand-color);
+    
+}

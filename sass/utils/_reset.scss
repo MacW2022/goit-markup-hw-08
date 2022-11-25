@@ -1,0 +1,11 @@
+*,
+*::after,
+*::before {
+
+    margin:0;
+    padding:0; 
+}
+body {
+    color: var(--brand-color-text);
+    margin: 0;
+}
