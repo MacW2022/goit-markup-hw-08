@@ -8,7 +8,19 @@
     color: var(--brand-color-hover);
     text-decoration: none;
     display: flex;
-    margin-right: 93px;
+    padding: 16px 0;
+    margin-right: auto;
+
+    @media screen and (min-width: 768px) {
+        padding: 26px 0;
+        margin-right: 83px;
+    }
+    @media screen and (min-width: 1200px) {
+
+        padding: 24px 0;
+        margin-right: 93px;
+    }
+
 }
 .navigation__color {
     color: var(--brand-color-logo);

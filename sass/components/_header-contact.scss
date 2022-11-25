@@ -2,6 +2,11 @@
     display: flex;
     gap: 50px 32px;
     list-style-type: none;
+    @media screen and (max-width: 768px) {
+
+        display: none;
+
+    }
 }
 .header-contact__icon1 {
     margin-right: 10px;
