@@ -1,15 +1,30 @@
 .lorem-list {
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
+    
+    @media screen and (min-width: 768px) {
+
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+    }
 }
 .lorem-list__box {
     width: 270px;
     height: 120px;
     background-color: var(--brand-color-section4);
     margin-bottom: 30px;
+    
 }
 .lorem-list__icon {
    margin-inline: 102px;
