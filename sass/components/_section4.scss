@@ -1,6 +1,12 @@
 .section4 {
+    
     background-color: var(--brand-color-section4);
-    padding: 94px 0;
+    padding: 60px 0;
+
+    @media screen and (min-width: 1200px) {
+        background-color: var(--brand-color-section4);
+        padding: 94px 0;
+    }
 }
 .section4-title {
     font-family: 'Roboto';
