@@ -1,26 +1,74 @@
 .section1 {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tłosekcja1.jpg);
-    background-size: contain;
-    max-width: 1600px;
-    margin: 0 auto;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/sekcja1tlo.jpg);
+        background-size: contain;
+        background-size: 480px 400px;
+        // max-width: 1600px;
+        margin: 0 auto;
+      
+    
+
 }
+@media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx)  {
+        
+  .section1 {
+    background-image: url(/images/sekcja1tlo2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .sekcion1 {
+
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/sekcja1tablet.jpg);
+    
+        background-position: center;
+        background-size: contain;
+        background-size: 768px 400px;
+        background-repeat: no-repeat;
+
+    }
+
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+  .section1 {
+    background-image: url(/images/sekcja1tablet2x.jpg);
+  }
+}
+
 .section1-content {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 200px 0;
+    padding: 118px 0;
 }
+
 .section1-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
+    font-size: 26px;
+    line-height: 1.615;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--brand-color);
     display: flex;
-    max-width: 696px;
+    max-width: 365px;
+
+    // font-family: 'Roboto';
+    // font-style: normal;
+    // font-weight: 900;
+    // font-size: 44px;
+    // line-height: 1.4;
+    // text-align: center;
+    // letter-spacing: 0.06em;
+    // text-transform: uppercase;
+    // color: var(--brand-color);
+    // display: flex;
+    // max-width: 696px;
     
 }
