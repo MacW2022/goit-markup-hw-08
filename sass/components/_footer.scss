@@ -2,6 +2,11 @@
     background-color: var(--brand-color-footer);
 }
 .footer-body {
-    display: flex;
+    display: block;
   
+}
+@media screen and (min-width: 1200px) {
+    .footer-body {
+        display: flex;
+    }
 }
