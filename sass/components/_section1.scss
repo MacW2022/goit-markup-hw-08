@@ -1,5 +1,6 @@
 .section1 {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/sekcja1tlo.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+        url(../images/sekcja1tlo.jpg);
         background-size: contain;
         background-size: 480px 400px;
         // max-width: 1600px;
@@ -13,14 +14,15 @@
     screen and (min-resolution: 2dppx)  {
         
   .section1 {
-    background-image: url(/images/sekcja1tlo2x.jpg);
+    background-image: url(../images/sekcja1tlo2x.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
     .sekcion1 {
 
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/sekcja1tablet.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+        url(../images/sekcja1tablet.jpg);
     
         background-position: center;
         background-size: contain;
@@ -35,7 +37,7 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
   .section1 {
-    background-image: url(/images/sekcja1tablet2x.jpg);
+    background-image: url(../images/sekcja1tablet2x.jpg);
   }
 }
 
