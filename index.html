@@ -16,8 +16,12 @@
 </head>
 <body>
     <header class="header">
-        <div class="mobile-menu__overley" data-menu>
-
+        <div class="mobile-menu__overlay" data-menu>
+            <button class="mobile-menu__btn" type="button" data-menu-close>
+                <svg class="mobile-menu__icon" width="40px" height="40px">
+                  <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
+                </svg>
+              </button>
         </div>
         <div class="container">
             <div class="header-content">
@@ -33,7 +37,11 @@
                       <li class="menu-nav-index__item"><a href="./portfolio.html" class="menu-nav-index__link">Portfolio</a></li>
                       <li class="menu-nav-index__item"><a href="#" class="menu-nav-index__link">Kontakt</a></li>
                     </ul>
-        
+                    <button class="nav__btn" type="button" data-menu-open>
+                        <svg class="nav__icon" width="40px" height="40px">
+                          <use href="./images/icons.svg#icon-menu_40px"></use>
+                        </svg>
+                      </button>
                 </nav>
        
                     <ul class="header-contact">
@@ -333,5 +341,6 @@
         </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
