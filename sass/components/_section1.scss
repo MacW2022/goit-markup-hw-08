@@ -6,30 +6,49 @@
       background-repeat: no-repeat;
       // max-width: 1600px;
       margin: 0 auto;
-
+      
       }
 
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), 
+      (min-resolution: 192dpi), 
+      (min-resolution: 2dppx) {
+        .section1 {
+          background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+          url(../images/sekcja1tlo2x.jpg);
+        }
+
 }
 
 
 @media screen and (min-width: 768px) {
-    .sekcion1 {
+    .section1 {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
       url(../images/sekcja1tablet.jpg);
-    
+    }
+      @media (min-device-pixel-ratio: 2), 
+        (min-resolution: 192dpi), 
+        (min-resolution: 2dppx) {
+        .section1 {
+          background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+          url(../images/sekcja1tablet2x.jpg);
+        }
     }
   }
 
-  
-// @media (min-device-pixel-ratio: 2),
-//        (min-resolution: 192dpi),
-//        (min-resolution: 2dppx) {
-//     .section1 {
-//        background-image: url(../images/sekcja1tablet2x.jpg);
-//      }
-//   }
-
+  @media screen and (min-width: 1200px) {
+    .section1 {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+      url(../images/tlopc.jpg);
+    }
+      @media (min-device-pixel-ratio: 2), 
+        (min-resolution: 192dpi), 
+        (min-resolution: 2dppx) {
+        .section1 {
+          background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+          url(../images/tlopc2x.jpg);
+        }
+    }
+  }
 
 .section1-content {
     display: flex;
@@ -38,6 +57,12 @@
     padding: 118px 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .section1-content {
+    padding: 200px 0;
+  }
+
+}
 .section1-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -50,17 +75,16 @@
     color: var(--brand-color);
     display: flex;
     max-width: 365px;
-
-    // font-family: 'Roboto';
-    // font-style: normal;
-    // font-weight: 900;
-    // font-size: 44px;
-    // line-height: 1.4;
-    // text-align: center;
-    // letter-spacing: 0.06em;
-    // text-transform: uppercase;
-    // color: var(--brand-color);
-    // display: flex;
-    // max-width: 696px;
     
+}
+
+@media screen and (min-width: 1200px) {
+  .section1-title {
+    
+    font-size: 44px;
+    line-height: 1.4;
+    max-width: 696px;
+  }
+
+
 }
