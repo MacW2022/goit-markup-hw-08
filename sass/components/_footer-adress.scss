@@ -1,77 +1,77 @@
-.footer-adress__description {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--brand-color);
-    max-width: 251px;
-    margin-bottom: 8px;
-    margin-left: 115px;
-}
-.footer-contact {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 60px;
-    margin-left: 167px;
-}
-.footer-contact__item {
-    margin-bottom: 8px;
-}
-.footer-contact__link {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    max-width: 232px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ .footer-adress__description {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 1.71;
+     letter-spacing: 0.03em;
+     color: var(--brand-color);
+     max-width: 251px;
+     margin-bottom: 8px;
+     margin-left: 115px;
+ }
+ .footer-contact {
+     list-style-type: none;
+     padding: 0;
+     margin-bottom: 60px;
+     margin-left: 167px;
+ }
+ .footer-contact__item {
+     margin-bottom: 8px;
+ }
+ .footer-contact__link {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 1.71;
+     letter-spacing: 0.03em;
+     color: rgba(255, 255, 255, 0.6);
+     text-decoration: none;
+     max-width: 232px;
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-    &:hover,
-    &:focus {
+     &:hover,
+     &:focus {
 
-        color: var(--brand-color-hover);
-    }
+         color: var(--brand-color-hover);
+     }
 
-    &:active {
+     &:active {
 
-        color: var(--brand-color-hover);
+         color: var(--brand-color-hover);
     }
 }
 
+@media screen and (min-width: 768px) {
+    .footer-adress__description {
+        margin-left: 0;
+
+    }
+
+    .footer-contact {
+        margin-left: 0;
+    }
+}
 @media screen and (min-width: 1200px) {
     .footer-adress__description {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--brand-color);
+    
         max-width: 246px;
         margin-bottom: 9px;
+        margin-left: 0;
         
     }
     .footer-contact {
         list-style-type: none;
         padding: 0;
         margin-bottom: 60px;
+        margin-left: 0;
     }
     .footer-contact__item {
         margin-bottom: 9px;
     }
     .footer-contact__link {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+      
         text-decoration: none;
         max-width: 231px;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -89,3 +89,50 @@
     }
 
 }
+
+// @media screen and (min-width: 1200px) {
+//     .footer-adress__description {
+//         font-family: 'Roboto';
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 14px;
+//         line-height: 1.71;
+//         letter-spacing: 0.03em;
+//         color: var(--brand-color);
+//         max-width: 246px;
+//         margin-bottom: 9px;
+        
+//     }
+//     .footer-contact {
+//         list-style-type: none;
+//         padding: 0;
+//         margin-bottom: 60px;
+//     }
+//     .footer-contact__item {
+//         margin-bottom: 9px;
+//     }
+//     .footer-contact__link {
+//         font-family: 'Roboto';
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 14px;
+//         line-height: 1.71;
+//         letter-spacing: 0.03em;
+//         color: rgba(255, 255, 255, 0.6);
+//         text-decoration: none;
+//         max-width: 231px;
+//         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+//         &:hover,
+//         &:focus {
+    
+//             color: var(--brand-color-hover);
+//         }
+    
+//         &:active {
+    
+//             color: var(--brand-color-hover);
+//         }
+//     }
+
+// }

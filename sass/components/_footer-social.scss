@@ -23,6 +23,15 @@
     fill: var(--brand-color);
 }
 
+@media screen and (min-width: 768px) {
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+}
+
 @media screen and (min-width: 1200px) {
     .footer-social {
         list-style-type: none;
