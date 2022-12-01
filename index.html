@@ -236,8 +236,18 @@
                     <ul class="team-members">
 
                         <li class="team-members__item">
-                            <img src="./images/team1.jpg" 
-                            alt="ProductDesigner" width="270" height="260"/>
+                            <img class="team-members__img" src="./images/team1pc.jpg" 
+                            alt="ProductDesigner" 
+                            srcset="
+                            ./images/team1pc.jpg 270w,
+                            ./images/team1tablet.jpg 354w,
+                            ./images/team480w.jpg 450w,
+                            ./images/team1pc2x.jpg 540w,
+                            ./images/team1tablet2x.jpg 708w,
+                            ./images/team480w2x.jpg 900w,
+                            "
+                            sizes="(max-width: 767px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px, 100vw" />
+
                             <p class="team-members__name">John Doe</p><p class="team-members__job">Product Designer</p>
                             <ul class="social-list">
                                 <li class="social-list__item"><a href="#" class="social-list__link">

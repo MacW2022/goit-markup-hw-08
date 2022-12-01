@@ -1,6 +1,9 @@
 .team-members {
 
     list-style-type: none;
+    padding: 0 auto;
+    display: block;
+    
     
     @media screen and (min-width: 768px) {
 
@@ -24,8 +27,31 @@
 
 }
 
+.team-members__item {
+    margin-bottom: 30px;
+}
+
 .team-members > .team-members__item {
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 
                 0 1px 1px 0 rgba(0, 0, 0, 0.14),
                 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.team-members__img {
+    width: 450px;
+    height: 460px;
+}
+
+@media screen and (min-width: 768px) {
+    .team-members__img {
+        width: 354px;
+        height: 374px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .team-members__img {
+        width: 270px;
+        height: 260px;
+    }
 }
