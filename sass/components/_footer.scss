@@ -2,18 +2,18 @@
     background-color: var(--brand-color-footer);
 }
 .footer-body {
-    display: flex;
+    display: flex; //1200px
     
 }
 
-// @media screen and (min-width: 768) {
-//     .footer-body {
-//         // display: flex;
-//         // flex-wrap: wrap;
-//         // align-items: baseline;
-//         // height: 463px;
-//     }
-// }
+@media screen and (min-width: 768) {
+     .footer-body {
+        display: flex;
+        //  flex-wrap: wrap;
+        //  align-items: baseline;
+        //  height: 463px;
+   }
+}
 
 // @media screen and (min-width: 1200px) {
 //     .footer-body {
